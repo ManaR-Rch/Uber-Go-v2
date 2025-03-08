@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('chauffeur_id')->constrained('users')->onDelete('cascade');
             $table->date('date');
-            $table->time('heure_debut');
+            $table->time('heure _debut');
             $table->time('heure_fin');
             $table->string('lieu');
             $table->timestamps();
