@@ -12,7 +12,7 @@
                     <p class="card-text">Statut : {{ $reservation->statut }}</p>
                     <form action="{{ route('reservations.cancel', $reservation->id) }}" method="POST" class="d-inline">
                         @csrf
-                        <button type="submit" class="btn btn-danger">Annuler la réservation</button>
+                        <button type="submit" class="btn btn-danger">Annuler La réservation</button>
                     </form>
                 </div>
             </div>
