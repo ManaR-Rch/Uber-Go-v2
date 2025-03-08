@@ -21,7 +21,7 @@
 
         <!-- Affichage des trajets disponibles -->
         <div class="mt-4">
-            <h3>Résultats :</h3>
+            <h3>Résulta ts :</h3>
             @foreach($trajets as $trajet)
                 <div class="card mb-3">
                     <div class="card-body">
