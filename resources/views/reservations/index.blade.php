@@ -5,7 +5,7 @@
         <h1>Mes Réservations</h1>
 
         @foreach($reservations as $reservation)
-            <div class="card mt-3">
+            <div class="card mt-3"  >
                 <div class="card-body">
                     <h5 class="card-title">{{ $reservation->trajet->lieu_depart }} → {{ $reservation->trajet->lieu_arrivee }}</h5>
                     <p class="card-text">Date : {{ $reservation->trajet->date_depart }}</p>
